@@ -34,12 +34,21 @@
       display: inline;
   }
   ul li {
-    border: solid;
-    border-width: thin;
+
     border-radius: 5px;
     max-width: inherit;
     margin-right: 10px;
     background-color: #848484;
     padding: 3px;
   }
-  
+  .jumbotron {
+      padding-top: 200px;
+      padding-bottom: 200px;
+      padding-right: 200px;
+      padding-left: 200px;
+      border-bottom-left-radius: 100%;
+      border-bottom-right-radius: 100%;
+      border-top-left-radius: 100%;
+      border-top-right-radius: 100%;
+
+  }
