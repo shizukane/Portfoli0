@@ -1,11 +1,13 @@
 # IP#
-# DELANI STUDIO
+# PORTFOLIO
 ## Author
 > Darolle Shizucane
 ### DESCRIPTION
-> This is a delani studio project copy 
+> This is a portfolio that states my educational journey and interests
 ## Link
-https://shizukane.github.io/DELANI/
+https://shizukane.github.io/portfolio2/.
+#### TECHNOLOGIES USED
+HTML CSS JAVASCRIPT JQUERY
 #### LICENSE
 
 ## MIT License
