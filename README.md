@@ -1,4 +1,4 @@
-# IP#
+# IP
 # PORTFOLIO
 ## Author
 > Darolle Shizucane
