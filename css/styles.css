@@ -29,6 +29,7 @@
   body {
     font-family:sans-serif;
     background-image: url(http://bgfons.com/upload/paper_texture329.jpg);
+    text-align: center;
   }
   nav{
       display: inline;
@@ -63,6 +64,93 @@
 #product{
     display: none;
 }
+.services{
+    position: relative;
+    
+}
+.contact{
+    position: relative;
+}
+.forms{
+    margin-bottom: 20%;
+}
+
+body{
+    text-align: center;
+}
+.services{
+    position: relative;
+    
+}
+.contact{
+    position: relative;
+}
+.forms{
+    margin-bottom: 20%;
+}
+#design{
+    display: none;
+}
+#develop{
+    display: none;
+}
+#product{
+    display: none;
+}
+.darolle1{
+    position: absolute;
+}
+.overlay1{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%;
+
+}
+.overlay2{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%
+}
+.overlay3{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%
+}
+.overlay4{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%
+}
+.overlay5{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%
+}
+.overlay6{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%
+}
+.overlay7{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%
+}
+.overlay8{
+    display: none;
+    background-color: black;
+    margin-bottom: 12%;
+    padding: 5%
+    
+}
+
 
 
 
