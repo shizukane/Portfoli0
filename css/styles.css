@@ -1,4 +1,10 @@
-
+img {
+    height: auto;
+    width: auto;
+    max-width: 100x;
+    max-height: 100px;
+    border-radius: 25px;
+  }
 body{
     text-align: center;
     
@@ -88,7 +94,6 @@ body{
   ol{
       color: blanchedalmond;
   }
-  
   
   
   
