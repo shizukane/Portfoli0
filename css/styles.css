@@ -9,6 +9,7 @@
   h1{
       color: cornsilk;
       font-family: 'Times New Roman', Times, serif;
+      margin: 10px;
   }
   p{
       color: cornsilk;
@@ -36,5 +37,8 @@
   body {
     font-family:sans-serif;
     background-image: url(http://bgfons.com/upload/paper_texture329.jpg);
+  }
+  nav{
+      display: inline;
   }
   
