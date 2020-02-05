@@ -11,3 +11,4 @@ $(document).ready(function(){
         $("#product").toggle()
         $("#productimg").toggle()
     });
+
