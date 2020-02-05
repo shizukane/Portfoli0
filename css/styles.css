@@ -14,15 +14,7 @@
   p{
       color: cornsilk;
   }
-  .jumbotron {
-      padding-right: 100%;
-      padding-bottom: 50px;
-      padding-top: 50px;
-      border-style: hidden;
-      border-radius: 200%;
-      text-align: center;
-      image-orientation: flip;
-  }
+ 
   
   img {
     height: auto;
@@ -40,5 +32,14 @@
   }
   nav{
       display: inline;
+  }
+  ul li {
+    border: solid;
+    border-width: thin;
+    border-radius: 5px;
+    max-width: inherit;
+    margin-right: 10px;
+    background-color: #848484;
+    padding: 3px;
   }
   
