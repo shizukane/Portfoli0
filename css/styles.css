@@ -29,59 +29,7 @@ body{
 #educationandspecialities{
     display: none;
 }
-.darolle1{
-    position: absolute;
-}
-.overlay1{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%;
 
-}
-.overlay2{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%
-}
-.overlay3{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%
-}
-.overlay4{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%
-}
-.overlay5{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%
-}
-.overlay6{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%
-}
-.overlay7{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%
-}
-.overlay8{
-    display: none;
-    background-color: black;
-    margin-bottom: 12%;
-    padding: 5%
-    
-}
 .jumbotron {
     padding-top: 25px;
     padding-bottom: 25px;

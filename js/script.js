@@ -7,9 +7,9 @@ $(document).ready(function(){
         $("#hobbiesandgames").toggle()
         $("#hobbiesandgamesimg").toggle()
     });
-    $("#educationandspacialitiesimg , #educationandspecialities").click(function(){
+    $("#educationandspecialitiesimg , #educationandspecialities").click(function(){
         $("#educationandspecialities").toggle()
-        $("#educationandspecialtiesimg").toggle()
+        $("#educationandspecialitiesimg").toggle()
     });
 });
 
