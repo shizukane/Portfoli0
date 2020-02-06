@@ -47,6 +47,10 @@ body{
   h4{
       font-style: italic;
   }
-  
-  
-  
+  .mypicture{
+      height: auto;
+      width: auto;
+      max-width: 500px;
+      max-height: 500px;
+      border-style: solid;
+  }
