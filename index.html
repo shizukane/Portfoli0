@@ -1,100 +1,72 @@
-  
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./css/styles.css">
-  <title>My portfolio</title>
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
-
 <body>
-  <div class="pos-f-t">
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class="bg-dark p-4">
-        <h4 class="text-white">Collapsed content</h4>
-        <span class="text-muted">Toggleable via the navbar brand.</span>
-      </div>
-    </div>
-    <nav class="navbar navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </nav>
-  </div>
-  <br><br>
-  <div class="jumbotron">
-    <h1><strong>Darolle Shizucane</strong></h1>
-    <ol> Web Developer</ol>
-    <ol>Born in 25th November 1997</ol>
-  </div>
-  <img class="mypicture" src="https://images.pexels.com/photos/2955375/pexels-photo-2955375.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-      <br><br>
-      <h3>CLICK THE IMAGES TO CHECK OUT MORE ABOUT ME</h3><BR><br>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="imagetoggle0" >
-            <img id="projectsdoneimg" src="https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
-          </div>
-          <p>PROJECTS DONE</p>
-          <div id="projectsdone" class="imagetoggle1">
-            <p>On my journey as a developer<br> ive had a chance to work on some projects.<br>For instance</p>
-            <ul>
-              <li><a href="https://github.com/shizukane/pizza-project">pizza-project</a></li>
-              <li><a href="https://github.com/shizukane/Akan">Akan names </a></li>
-              <li><a href="https://github.com/shizukane/Bootstrap-practice">Bootstrap-practice </a></li>
-            <ul>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="imagetoggle2">
-            <img id=hobbiesandgamesimg src="https://as1.ftcdn.net/jpg/02/22/00/78/500_F_222007826_ljJLDotx4e9vBWR9wnQcPtEVcJA5kUvM.jpg" alt="development_icon">
-            <p>HOBBIES AND INTERESTS</p>
-          </div>
-          <div id="hobbiesandgames" class="imagetoggle3">
-            <p>Outside coding and programming I have other activities<br> that I like passing with time<br> such as</p>
-            <li>Gaming</li>
-            <li>Swimming</li>
-            <li>Playing Tennis</li>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="imagetoggle4">
-            <img id="educationandspecialitiesimg"src="https://images.pexels.com/photos/1286115/pexels-photo-1286115.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="product_icon">
-            <p>EDUCATION AND SPECIALITIES</p>
-          </div>
-          <div id="educationandspecialities" class="imagetoggle5">
-            <p>I started my journey with computers a year ago<br>I have been attending short courses like<br>ICDL and Computer Packages before I joined Moringa School<br> For Programming and coding.I decide to join Moringa School because <br>I  saw the seriousness and determination <br>that it has when tutoring their students.<br>Also because the environments is condusive For studying</p>
 
+<div class="container">
+
+<nav id="navbar" class="navbar">
+<a href="#about" class="nav-link">About</a>
+<a href="#projects" class="nav-link">Project</a>
+<a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+<section id="welcome-section" class="welcome-section">
+<h1>Hey! I am <span>Darolle</span>Shizukane</h1>
+<p>a web developer</p>
+</section>
+
+<section id="about" class="about">
+<h1>About</h1>
+<p>Hi! My name is <span>Darolle</span>, Currently A Student at Moringa School taking Software Development.</p>
+<p>At the moment Im studying Programming But I also studied multimedia before I began my journey as a developer</p>
+<p>While At Moringa Ive had the privilege to do certain projects as seenn below</p>
+</section>
+
+<section id="projects" class="projects">
+<h1>Projects</h1>
+<p>“Here are some of the Projects Ive worked on” </p>
+    <div  class="project-grid">
+        <div class="project-tile">
+            <img src="./assets/blog.png" alt="Tribute Page" class="project-image">
+            <a href="https://github.com/shizukane/blog" class="project-link" target="_blank">View</a>
+            <p class="project-description">Blog</p>
         </div>
-      </div>
+        <div class="project-tile">
+            <img src="./assets/gitweb.png" alt="Survey Form" class="project-image">
+            <a href="https://github.com/shizukane/gitweb  " class="project-link" target="_blank">View</a>
+            <p class="project-description">Github Search</p>
+        </div>
+        <div class="project-tile">
+            <img src="./assets/quotes.png" alt="Landing Page" class="project-image">
+            <a href="https://github.com/shizukane/quotes-app" class="project-link" target="_blank">View</a>
+            <p class="project-description">Quotes App</p>
+        </div>
+        <div class="project-tile">
+            <img src="./assets/projectsapp.png" alt="Technical Documentation" class="project-image">
+            <a href="https://github.com/shizukane/projectsapp" class="project-link" target="_blank">View</a>
+            <p class="project-description">Projects App</p>
+        </div>
     </div>
-  </div>
-        <ul class="icon text-center list-unstyled list-inline">
-          <li class="list-inline-item"><a href=""><img src="./img/behance.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/dribble.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/facebook.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/flickr.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/g_plus.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/pinterest.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/skype.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/stumble_upon.png" alt=""></a></li>
-          <li class="list-inline-item"><a href=""><img src="./img/twitter.png" alt=""></a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="footer">
+</section>
 
-        <h4 class="text-center">Nairobi </h4>
-        <h4 class="text-center">Kenya</h4>
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="./js/script.js"></script>
-  
-   </body>
+<section id="contact" class="contact">
+    <h1>Contact</h1>
+    <li>drizydarolle@gmail.com</li>
+    <li>0794812973</li>
+   
+</section>
 
+<footer>
+    <p>Copyright &copy; 2020, Darolle Shizukane. All Rights Reserved.</p>
+</footer>
+
+</div>
+</body>
 </html>
